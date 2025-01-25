@@ -1,4 +1,3 @@
-<<<<<<<
 
 # mapeau
 # Exercice 2 : Gestion de Stock - Documentation Technique
