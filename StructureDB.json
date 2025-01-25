@@ -1,0 +1,34 @@
+{
+    "products":{
+        "barecode":{
+            "name": "name du produit",
+            "price": 0.0,
+            "category": "catégorie du produit"
+        }
+    },
+    "stores":{
+        "storeId":{
+            "name": "Nom du magasin",
+            "address": "Adresse du magasin",
+            "phone": "Numéro de téléphone du magasin"
+        }
+    },
+    "inventory":{
+        "inventoryId":{
+            "barecode": "barecode du produit",
+            "storeId": "Id du magasin",
+            "quantity": 0,
+            "expirationDate": "YYYY-MM-DD",
+            "status":"disponible | reservé | epuisé",
+            "reservations":[
+                {
+                    "reservationId": "Id de la reservation",
+                    "clientName": "Nom du client",
+                    "quantity": 0,
+                    "reservationDate": "YYYY-MM-DD",
+                    "status": "en attente | confirmé | annulé"
+                }
+            ]
+        }
+    }
+}
