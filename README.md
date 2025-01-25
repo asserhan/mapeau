@@ -1,6 +1,6 @@
 
 # mapeau
-# Exercice 2 : Gestion de Stock - Documentation Technique
+# Exercice 1 : Gestion de Stock - Documentation Technique
 
 ## 📋 Objectif du Projet
 Système de gestion de stock multi-magasin avec suivi de produits par code-barres
