@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 # mapeau
 Exercice 1 : Gestion de Stock - Structure de Données NoSQL
+
 Structure de Données
+
 Collections Principales
 
 stores
@@ -43,3 +46,4 @@ Un produit = un code-barres
 Gestion multi-magasin
 Suivi des dates d'expiration
 Système de réservation flexible
+>>>>>>> 
