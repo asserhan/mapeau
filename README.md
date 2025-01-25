@@ -1,49 +1,36 @@
 <<<<<<< HEAD
 # mapeau
-Exercice 1 : Gestion de Stock - Structure de Données NoSQL
+# Gestion de Stock - Documentation Technique
 
-Structure de Données
+## 📋 Objectif du Projet
+Système de gestion de stock multi-magasin avec suivi de produits par code-barres
 
-Collections Principales
+## 🏗️ Structure de Données
 
-stores
+### Collections
+- **stores**: Informations des magasins
+- **products**: Détails des produits
+- **inventory**: Gestion des stocks et réservations
 
-Informations sur les magasins
-Identifiant unique
-Nom et adresse du magasin
-
-
-products
-
-Identifié par le code-barres
-Informations de base du produit
-Nom, catégorie, prix
+## 🔑 Caractéristiques Principales
+- Identifiant unique par code-barres
+- Support multi-magasin
+- Gestion des dates d'expiration
+- Système de réservation intégré
 
 
-inventory
+## 🛠️ Opérations Supportées
+- Ajout/suppression de produits
+- Mise à jour du stock
+- Création de réservations
+- Suivi des expiration
 
-Gestion du stock par produit et magasin
-Quantité, date d'expiration
-Système de réservation
+## 📝 Notes Techniques
+- Un produit = Un code-barres
+- Gestion flexible des stocks
+- Traçabilité complète
 
-Fonctionnalités Clés
-
-Code-barres comme identifiant unique
-Suivi du stock par magasin
-Gestion des réservations
-Tracking du status des produits
-
-Opérations Principales
-
-Ajout de produit
-Mise à jour du stock
-Création de réservation
-Suppression/épuisement de stock
-
-Contraintes
-
-Un produit = un code-barres
-Gestion multi-magasin
-Suivi des dates d'expiration
-Système de réservation flexible
+## 🚀 Prérequis
+- Format NoSQL
+- Système de gestion de stock modulaire
 >>>>>>> 
